@@ -1,0 +1,782 @@
+// Syntax explanation: https://github.com/StractOrg/sample-optics/blob/main/quickstart.optic
+//
+// You can get syntax highlighting for this file with the following vscode
+// extension: https://marketplace.visualstudio.com/items?itemName=Stract.Optics
+
+DiscardNonMatching;
+
+Rule {
+    Matches {
+        Site("|apocalypse-confidential.com|")
+    }
+};
+Rule {
+    Matches {
+        Site("|im1776.com|")
+    }
+};
+Rule {
+    Matches {
+        Site("|bidoun.org|")
+    }
+};
+Rule {
+    Matches {
+        Site("|burningshore.com|")
+    }
+};
+Rule {
+    Matches {
+        Site("|crudefutures.substack.com|")
+    }
+};
+Rule {
+    Matches {
+        Site("|dismagazine.com|")
+    }
+};
+Rule {
+    Matches {
+        Site("|documentjournal.com|")
+    }
+};
+Rule {
+    Matches {
+        Site("|forevermag.net|")
+    }
+};
+Rule {
+    Matches {
+        Site("|guernicamag.com|")
+    }
+};
+Rule {
+    Matches {
+        Site("|exiledonline.com|")
+    }
+};
+Rule {
+    Matches {
+        Site("|www.bernadettecorporation.com|")
+    }
+};
+Rule {
+    Matches {
+        Site("|www.rhizomes.net|")
+    }
+};
+Rule {
+    Matches {
+        Site("|*.urbanize.ciy|")
+    }
+};
+Rule {
+    Matches {
+        Site("|0xsalon.pubpub.org|")
+    }
+};
+Rule {
+    Matches {
+        Site("|adamtooze.substack.com|")
+    }
+};
+Rule {
+    Matches {
+        Site("|aesthetics.fandom.com|")
+    }
+};
+Rule {
+    Matches {
+        Site("|anthology.rhizome.org|")
+    }
+};
+Rule {
+    Matches {
+        Site("|archive.org|")
+    }
+};
+Rule {
+    Matches {
+        Site("|ars.electronica.arn|")
+    }
+};
+Rule {
+    Matches {
+        Site("|artbase.rhizome.org|")
+    }
+};
+Rule {
+    Matches {
+        Site("|artengine.ca|")
+    }
+};
+Rule {
+    Matches {
+        Site("|artviewer.org|")
+    }
+};
+Rule {
+    Matches {
+        Site("|arxiv.org|")
+    }
+};
+Rule {
+    Matches {
+        Site("|astralcodexten.substack.com|")
+    }
+};
+Rule {
+    Matches {
+        Site("|www.bellingcat.com|")
+    }
+};
+Rule {
+    Matches {
+        Site("|bombmagazine.org|")
+    }
+};
+Rule {
+    Matches {
+        Site("|cari.instituteaesthetics|")
+    }
+};
+Rule {
+    Matches {
+        Site("|carolinebusta.github.io|")
+    }
+};
+Rule {
+    Matches {
+        Site("|communityrule.in|")
+    }
+};
+Rule {
+    Matches {
+        Site("|compost.di|")
+    }
+};
+Rule {
+    Matches {
+        Site("|cyberartsweb.or|")
+    }
+};
+Rule {
+    Matches {
+        Site("|cyberfeminismindex.co|")
+    }
+};
+Rule {
+    Matches {
+        Site("|damagemag.co|")
+    }
+};
+Rule {
+    Matches {
+        Site("|direct.mit.ed|")
+    }
+};
+Rule {
+    Matches {
+        Site("|donotresearch.substack.co|")
+    }
+};
+Rule {
+    Matches {
+        Site("|everest-pipkin.co|")
+    }
+};
+Rule {
+    Matches {
+        Site("|flash---art.co|")
+    }
+};
+Rule {
+    Matches {
+        Site("|hackernoon.co|")
+    }
+};
+Rule {
+    Matches {
+        Site("|haywirez.co|")
+    }
+};
+Rule {
+    Matches {
+        Site("|heavytrafficmagazine.co|")
+    }
+};
+Rule {
+    Matches {
+        Site("|highsnobiety.co|")
+    }
+};
+Rule {
+    Matches {
+        Site("|iep.utm.ed|")
+    }
+};
+Rule {
+    Matches {
+        Site("|intellinews.co|")
+    }
+};
+Rule {
+    Matches {
+        Site("|interconnected.or|")
+    }
+};
+Rule {
+    Matches {
+        Site("|inthemesh.co|")
+    }
+};
+Rule {
+    Matches {
+        Site("|joannemcneil.comwriting.ht|")
+    }
+};
+Rule {
+    Matches {
+        Site("|legacy.donotresearch.ne|")
+    }
+};
+Rule {
+    Matches {
+        Site("|library.uniteddiversity.co|")
+    }
+};
+Rule {
+    Matches {
+        Site("|lindynewsletter.beehiiv.co|")
+    }
+};
+Rule {
+    Matches {
+        Site("|logicmag.io|")
+    }
+};
+Rule {
+    Matches {
+        Site("|manifest.supplystudies.co|")
+    }
+};
+Rule {
+    Matches {
+        Site("|modesofcriticism.or|")
+    }
+};
+Rule {
+    Matches {
+        Site("|neural.it|")
+    }
+};
+Rule {
+    Matches {
+        Site("|newbooksnetwork.co|")
+    }
+};
+Rule {
+    Matches {
+        Site("|newdesigncongress.or|")
+    }
+};
+Rule {
+    Matches {
+        Site("|otherinter.ne|")
+    }
+};
+Rule {
+    Matches {
+        Site("|outland.ar|")
+    }
+};
+Rule {
+    Matches {
+        Site("|pioneerworks.or|")
+    }
+};
+Rule {
+    Matches {
+        Site("|placesjournal.or|")
+    }
+};
+Rule {
+    Matches {
+        Site("|plato.stanford.ed|")
+    }
+};
+Rule {
+    Matches {
+        Site("|prostheticknowledge.tumblr.co|")
+    }
+};
+Rule {
+    Matches {
+        Site("|publicseminar.or|")
+    }
+};
+Rule {
+    Matches {
+        Site("|quillette.co|")
+    }
+};
+Rule {
+    Matches {
+        Site("|reallifemag.co|")
+    }
+};
+Rule {
+    Matches {
+        Site("|rhizome.or|")
+    }
+};
+Rule {
+    Matches {
+        Site("|robhorning.substack.co|")
+    }
+};
+Rule {
+    Matches {
+        Site("|sinocism.co|")
+    }
+};
+Rule {
+    Matches {
+        Site("|soloshow.on|")
+    }
+};
+Rule {
+    Matches {
+        Site("|spectrum.ieee.or|")
+    }
+};
+Rule {
+    Matches {
+        Site("|studio.ribbonfarm.co|")
+    }
+};
+Rule {
+    Matches {
+        Site("|www.technologyreview.co|")
+    }
+};
+Rule {
+    Matches {
+        Site("|theanarchistlibrary.or|")
+    }
+};
+Rule {
+    Matches {
+        Site("|thebaffler.co|")
+    }
+};
+Rule {
+    Matches {
+        Site("|www.thedriftmag.co|")
+    }
+};
+Rule {
+    Matches {
+        Site("|thenewinquiry.co|")
+    }
+};
+Rule {
+    Matches {
+        Site("|thepointmag.co|")
+    }
+};
+Rule {
+    Matches {
+        Site("|thesocietypages.or|")
+    }
+};
+Rule {
+    Matches {
+        Site("|trust.su|")
+    }
+};
+Rule {
+    Matches {
+        Site("|tvtropes.or|")
+    }
+};
+Rule {
+    Matches {
+        Site("|tzvetnik.on|")
+    }
+};
+Rule {
+    Matches {
+        Site("|v2.nl|")
+    }
+};
+Rule {
+    Matches {
+        Site("|various-artists.co|")
+    }
+};
+Rule {
+    Matches {
+        Site("|verses.xy|")
+    }
+};
+Rule {
+    Matches {
+        Site("|veryinteractive.ne|")
+    }
+};
+Rule {
+    Matches {
+        Site("|we-make-money-not-art.co|")
+    }
+};
+Rule {
+    Matches {
+        Site("|www.are.na|")
+    }
+};
+Rule {
+    Matches {
+        Site("|www.cca.qc.ca|")
+    }
+};
+Rule {
+    Matches {
+        Site("|www.contemporaryartdaily.co|")
+    }
+};
+Rule {
+    Matches {
+        Site("|www.creativeapplications.ne|")
+    }
+};
+Rule {
+    Matches {
+        Site("|www.dissensus.co|")
+    }
+};
+Rule {
+    Matches {
+        Site("|www.e-flux.co|")
+    }
+};
+Rule {
+    Matches {
+        Site("|www.e-flux.co|")
+    }
+};
+Rule {
+    Matches {
+        Site("|www.eai.or|")
+    }
+};
+Rule {
+    Matches {
+        Site("|www.eff.or|")
+    }
+};
+Rule {
+    Matches {
+        Site("|www.erowid.or|")
+    }
+};
+Rule {
+    Matches {
+        Site("|www.ft.co|")
+    }
+};
+Rule {
+    Matches {
+        Site("|www.holo.mg|")
+    }
+};
+Rule {
+    Matches {
+        Site("|www.iftf.or|")
+    }
+};
+Rule {
+    Matches {
+        Site("|www.kaleidoscope.me|")
+    }
+};
+Rule {
+    Matches {
+        Site("|www.kernelmag.io|")
+    }
+};
+Rule {
+    Matches {
+        Site("|www.lesswrong.co|")
+    }
+};
+Rule {
+    Matches {
+        Site("|www.lrb.co.uk|")
+    }
+};
+Rule {
+    Matches {
+        Site("|www.neroeditions.co|")
+    }
+};
+Rule {
+    Matches {
+        Site("|www.newmuseum.or|")
+    }
+};
+Rule {
+    Matches {
+        Site("|www.ofluxo.ne|")
+    }
+};
+Rule {
+    Matches {
+        Site("|www.parapraxismagazine.co|")
+    }
+};
+Rule {
+    Matches {
+        Site("|www.perfectlyimperfect.fy|")
+    }
+};
+Rule {
+    Matches {
+        Site("|www.punctr.ar|")
+    }
+};
+Rule {
+    Matches {
+        Site("|www.researchgate.ne|")
+    }
+};
+Rule {
+    Matches {
+        Site("|www.ribbonfarm.co|")
+    }
+};
+Rule {
+    Matches {
+        Site("|matdryhurst.medium.co|")
+    }
+};
+Rule {
+    Matches {
+        Site("|www.rightclicksave.co|")
+    }
+};
+Rule {
+    Matches {
+        Site("|www.rookiemag.co|")
+    }
+};
+Rule {
+    Matches {
+        Site("|www.spikeartmagazine.co|")
+    }
+};
+Rule {
+    Matches {
+        Site("|www.the-syllabus.co|")
+    }
+};
+Rule {
+    Matches {
+        Site("|www.thejaymo.ne|")
+    }
+};
+Rule {
+    Matches {
+        Site("|www.theparisreview.or|")
+    }
+};
+Rule {
+    Matches {
+        Site("|www.tommoody.us|")
+    }
+};
+Rule {
+    Matches {
+        Site("|www.ubu.co|")
+    }
+};
+Rule {
+    Matches {
+        Site("|www.urbanomic.co|")
+    }
+};
+Rule {
+    Matches {
+        Site("|www.whatsonweibo.co|")
+    }
+};
+Rule {
+    Matches {
+        Site("|www.yakcollective.or|")
+    }
+};
+Rule {
+    Matches {
+        Site("|www.zweikommasieben.ch|")
+    }
+};
+Rule {
+    Matches {
+        Site("|yalereview.or|")
+    }
+};
+Rule {
+    Matches {
+        Site("|zine.zora.co|")
+    }
+};
+Rule {
+    Matches {
+        Site("|hyperallergic.co|")
+    }
+};
+Rule {
+    Matches {
+        Site("|johnganz.substack.co|")
+    }
+};
+Rule {
+    Matches {
+        Site("|kevinmunger.substack.co|")
+    }
+};
+Rule {
+    Matches {
+        Site("|kneelingbus.substack.co|")
+    }
+};
+Rule {
+    Matches {
+        Site("|knowyourmeme.co|")
+    }
+};
+Rule {
+    Matches {
+        Site("|monoskop.or|")
+    }
+};
+Rule {
+    Matches {
+        Site("|newmodels.io|")
+    }
+};
+Rule {
+    Matches {
+        Site("|officemagazine.ne|")
+    }
+};
+Rule {
+    Matches {
+        Site("|restofworld.or|")
+    }
+};
+Rule {
+    Matches {
+        Site("|samkriss.substack.co|")
+    }
+};
+Rule {
+    Matches {
+        Site("|theconvivialsociety.substack.co|")
+    }
+};
+Rule {
+    Matches {
+        Site("|thecreativeindependent.co|")
+    }
+};
+Rule {
+    Matches {
+        Site("|wallpaper.co|")
+    }
+};
+Rule {
+    Matches {
+        Site("|wikipedia.or|")
+    }
+};
+Rule {
+    Matches {
+        Site("|www.poetryfoundation.or|")
+    }
+};
+Rule {
+    Matches {
+        Site("|www.8ball.re|")
+    }
+};
+Rule {
+    Matches {
+        Site("|*.mitpress.mit.ed|")
+    }
+};
+Rule {
+    Matches {
+        Site("|library.stationofcommons.or|")
+    }
+};
+Rule {
+    Matches {
+        Site("|*.pubpub.or|")
+    }
+};
+Rule {
+    Matches {
+        Site("|www.memetides.co|")
+    }
+};
+Rule {
+    Matches {
+        Site("|thepiratebook.ne|")
+    }
+};
+Rule {
+    Matches {
+        Site("|veryinteractive.ne|")
+    }
+};
+Rule {
+    Matches {
+        Site("|www.tumblr.co|")
+    }
+};
+Rule {
+    Matches {
+        Site("|radio.montezpress.co|")
+    }
+};
+Rule {
+    Matches {
+        Site("|textz.co|")
+    }
+};
+Rule {
+    Matches {
+        Site("|www.siliconvalet.or|")
+    }
+};
+Rule {
+    Matches {
+        Site("|dis.ar|")
+    }
+};
+Rule {
+    Matches {
+        Site("|www.distributedhistory.co|")
+    }
+};
+Rule {
+    Matches {
+        Site("|neocities.or|")
+    }
+};
+Rule {
+    Matches {
+        Site("|punctumbooks.co|")
+    }
+};

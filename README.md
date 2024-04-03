@@ -10,4 +10,4 @@
 2. Enter
    * Name: NM Site list
    * URL: `https://raw.githubusercontent.com/isaacphi/nm_optic/master/nm.optic` or `https://raw.githubusercontent.com/isaacphi/nm_optic/master/nm_uprank.optic`
-   * Descripion: Only search sites in NM site list (first link) or Uprank content similar to NM site list (second link)
+   * Descripion: "Only search sites in NM site list" (first link) or "Uprank content similar to NM site list" (second link)
